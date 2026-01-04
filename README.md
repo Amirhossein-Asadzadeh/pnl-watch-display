@@ -32,3 +32,20 @@ Live PNL notification mirrored from phone to Galaxy Watch.
 
 ![PNL on Galaxy Watch - Wrist](screenshots/watch-pnl-on-wrist.jpg)
 ![PNL on Galaxy Watch - Desk](screenshots/watch-pnl-on-desk.jpg)
+
+## Quick Start (PC)
+1) Create venv and install deps:
+   - `python -m venv .venv`
+   - `.venv\Scripts\activate`
+   - `pip install -r requirements.txt`
+
+2) Set env vars (PowerShell):
+   - `$env:BITUNIX_API_KEY="..."`
+   - `$env:BITUNIX_API_SECRET="..."`
+
+3) Run:
+   - `python pnl.py`
+
+## Output
+Example:
+`PNL: 12.34 USDT`
